@@ -1,10 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My GitHub Pages Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio - [Your Name]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>This website is hosted on GitHub Pages.</p>
+    <header>
+        <div class="container">
+            <h1>[Your Name]</h1>
+            <p class="tagline">SOC Analyst | Aspiring Threat Hunter & Blue Team Specialist</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Reports & Projects</a>
+                <a href="mailto:youremail@example.com">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a dedicated SOC Analyst focused on improving **incident response report writing** and mastering the **MITRE ATT&CK Framework**. My goal is to transition into a Threat Hunter role, emphasizing the **CIA (Confidentiality, Integrity, Availability)** triad in all defensive strategies.</p>
+            <p>Actively preparing for the Blue Team certification and constantly learning the Attack and Defense Framework.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-light section-padding">
+        <div class="container">
+            <h2>Key Skills</h2>
+            <ul class="skills-list">
+                <li><i class="fas fa-file-alt"></i> Incident Response Report Writing</li>
+                <li><i class="fas fa-shield-alt"></i> MITRE ATT&CK Framework Analysis</li>
+                <li><i class="fas fa-search"></i> Threat Hunting & Hypothesis Generation</li>
+                <li><i class="fas fa-laptop-code"></i> Python/Bash Scripting</li>
+                <li><i class="fas fa-database"></i> SIEM (Splunk/ELK) Querying</li>
+                <li><i class="fas fa-microchip"></i> Malware Analysis Fundamentals</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2>Incident Reports & Projects</h2>
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <h3>MITRE ATT&CK Mapping: Ransomware X</h3>
+                    <p class="project-meta">Category: Threat Analysis | Date: Dec 2025</p>
+                    <p>Detailed analysis of a hypothetical Ransomware attack, mapping TTPs to the **MITRE ATT&CK Framework** (Initial Access, Persistence, Command and Control). Discusses potential detection and mitigation strategies.</p>
+                    <a href="#" class="btn-primary">View Report</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Incident Response Report: Phishing Campaign</h3>
+                    <p class="project-meta">Category: Incident Response | Date: Nov 2025</p>
+                    <p>A formal incident report focusing on clarity, structure, and actionable recommendations. Highlights the containment, eradication, and post-incident analysis phases, always thinking of **DAD (Disclosure, Alteration, Destruction)** prevention.</p>
+                    <a href="#" class="btn-primary">View Report</a>
+                </article>
+
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Your Name]. Built with a focus on Defense.</p>
+        </div>
+    </footer>
 </body>
 </html>
